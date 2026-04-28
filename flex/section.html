@@ -1,0 +1,309 @@
+<html>
+<head>
+    <title>
+        ethnic groups 
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+    <style>
+        :root {
+            --crimson:    #7A1818;
+            --gold:       #C4882A;
+            --gold-light: #E2BF6A;
+            --gold-dim:   rgba(196,136,42,0.35);
+            --ivory:      #F4ECD8;
+            --ivory-dim:  rgba(244,236,216,0.72);
+            --dark:       #160C05;
+            --mid:        #261508;
+            --surface:    #1E1008;
+            --text-muted: rgba(244,236,216,0.65);
+        }
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+             margin: 0 auto;
+             height: 100vh;
+
+             font-size: 18px;
+             line-height: 1.85;
+             max-width: 800px;
+             padding: 20px;
+             
+             color: var(--ivory);
+             
+             /* 🔥 Background Image + Dim Overlay */
+             background: 
+             linear-gradient(rgba(22, 12, 5, 0.75), rgba(22, 12, 5, 0.85)),
+             url('https://media.gettyimages.com/id/1911107001/photo/rows-of-bronze-prayer-wheel-in-golden-temple-in-patan-nepal.jpg?s=612x612&w=0&k=20&c=h5XsSSyBy_ayQfqf4dF9LFNO1K2t7tjggE860sXXLfw=');
+             
+             background-size: cover;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-attachment: fixed; /* makes it look premium */
+             font-family: 'Alex Brush', cursive;
+}
+        nav {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 500;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 64px;
+            background: rgba(18,9,3,0.97);
+            border-bottom: 1px solid var(--gold-dim);
+            backdrop-filter: blur(8px);
+        }
+        .nav-brand {
+            font-family: 'Cinzel Decorative', serif;
+            font-size: 0.95rem;
+            letter-spacing: 0.14em;
+            color: var(--gold);
+            text-decoration: none;
+        }
+        nav a {
+            font-family: 'Cinzel', serif;
+            font-size: 0.68rem;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--ivory-dim);
+            text-decoration: none;
+        }
+        section {
+            background: var(--surface);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+        button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(102, 126, 234, 0.4);
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(102, 126, 234, 0.6);
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+        }
+        button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(102, 126, 234, 0.4);
+        }
+        p {
+            line-height: 1.6;
+            color: var(--ivory-dim);
+            margin-top: 15px;
+        }
+        #searchInput {
+            background: rgba(255, 255, 255, 0.9);
+            color: var(--dark);
+        }
+        #searchInput:focus {
+            border-color: var(--gold);
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+        }
+        ::placeholder {
+            color: #666;
+        }
+        
+    </style>
+</head>
+<body>
+  <nav>
+    <a class="nav-brand" href="#">नेपाल संस्कृति</a>
+    <a href="prithvi.html">Prithvi Narayan Shah</a>
+  </nav>
+  <div style="margin-top: 80px; margin-bottom: 20px;">
+    <input type="text" id="searchInput" onkeyup="searchGroups()" placeholder="Search ethnic group..." 
+           style="width: 100%; padding: 12px 20px; font-size: 16px; border: 2px solid #ddd; border-radius: 25px; outline: none; box-sizing: border-box;">
+  </div>
+  <nav style="display: flex; color: goldenrod; font-family: Arial, Helvetica, sans-serif; width: 100%;">
+  <span style="flex: 1; text-align: left;">नेपाल संस्कृति</span>
+  <span style="flex: 1; text-align: center;font-family: 'Alex Brush', cursive;">These are the most common ethnic group in Nepal</span>
+  <span style="flex: 1;"></span> <!-- empty span to push content -->
+  
+</nav>
+     
+<br>
+<p>Below we have listed the 20 ethnic groups of nepal we have small description about them here and if you want to know more about them please make sure you click on them </p>
+<p> We extracted these info from online sources and if there is something that has been described in a wrong way or it offends you about that please leave suggestions we will go through that thing and make sure to provide with absolute information and if it still bothers you our teams apologized to you our intention never bad we just want to share about every ethnic groups in nepal .hope you understand.</p>
+<br>
+<section>
+ <a href="templates\kshetri_encyclopedia.html" style="text-decoration: none;">
+  <button>Kshetri</button>
+  <p>The Kshetri community is one of Nepal’s largest and historically significant ethnic groups, traditionally known as warriors and rulers. They belong to the Kshatriya varna in the Hindu social hierarchy. Kshetris have played key roles in the military, administration, and governance throughout Nepalese history. They predominantly speak Nepali and live in hilly regions. Their culture values bravery, discipline, and loyalty. Festivals, rituals, and religious practices are observed with devotion. Today, Kshetris continue to contribute to Nepal’s social, political, and cultural life, balancing modern professions while preserving traditional customs, martial heritage, and family values that define their identity.</p>
+ </a>
+</section>
+
+<section>
+  <a href="templates\brahmin_encyclopedia.html" style="text-decoration: none;">
+  <button>Brahman - Hill</button>
+  <p>Hill Brahmins are one of the oldest and most respected ethnic groups in Nepal. Traditionally priests, scholars, and teachers, they are responsible for performing religious rituals and preserving sacred knowledge. Following Hinduism strictly, they celebrate festivals and observe cultural practices with devotion. They mainly reside in hilly regions and speak Nepali. Education, spirituality, and ethical conduct are central to their culture. Historically, Hill Brahmins held positions in administration and governance. Today, they continue to serve society through religious guidance, education, and cultural preservation, maintaining their traditions while also participating in modern professions and community leadership.</p>
+</a>
+</section>
+
+<section>
+   <a href="templates\magar_encyclopedia.html" style="text-decoration: none;">
+  <button>Magar</button>
+  <p>Magars are an indigenous ethnic group primarily residing in mid-hill regions of Nepal. They have a rich cultural heritage with distinctive music, dance, festivals, and traditional clothing. Many Magars historically served in the Gurkha regiments, earning recognition for bravery and military skill. They practice Hinduism, Buddhism, or indigenous beliefs and speak both Magar language and Nepali. Magar society values community cohesion, courage, and respect for traditions. Agriculture and craftsmanship are common occupations. Today, Magars contribute to Nepal’s cultural, military, and economic life while preserving their language, customs, and traditional festivals, ensuring their heritage continues across generations.</p>
+  </a>
+</section>
+
+ <section>
+<a href="templates/thakuri.html" style="text-decoration: none;">
+  <button>Thakuri</button>
+  <p>The Thakuri people — known in various contexts as Thakuri, Thakuris, or in some historical texts as Thakuri Rajput — are a primarily Indo-Aryan ethnic community found throughout Nepal, with the highest concentration in the western hills of Nepal (districts of Doti, Bajhang, Bajura, Achham, and surrounding areas). According to Nepal's national census, the Thakuri population numbers approximately 80,000–100,000 individuals. The Thakuri occupy an ambiguous position in Nepali social classification: claiming Kshatriya (warrior) status and connection to broader Indo-Aryan traditions, while also maintaining a distinct ethnic and regional identity rooted in the western Himalayan hills.</p>
+  </a>
+</section>
+
+<section>
+  <a href="templates\tamang.html" style="text-decoration: none;">
+  <button>Tamang</button>
+  <p>Tamangs are an indigenous ethnic group mainly residing in Nepal’s hilly regions. They have a rich cultural heritage, including unique language, traditional music, dances, and Buddhist customs. They speak the Tamang language alongside Nepali. Festivals like Lhosar are celebrated with enthusiasm, reflecting their spiritual and community-oriented lifestyle. Traditionally, Tamangs were farmers, craftsmen, and traders. Their society values family bonds, respect for elders, and community cohesion. Today, Tamangs actively contribute to Nepal’s cultural diversity, economy, and tourism while preserving their language, traditional arts, and religious practices. They maintain a balance between embracing modernity and protecting their heritage for future generations.</p>
+  </a>
+</section>
+
+<section>
+  <a href="templates/bishowkarma.html" style="text-decoration: none;">
+  <button>Bishwokarma</button>
+  <p>The Bishwokarma community, also known as Kami in some regions, is traditionally skilled in metalwork, blacksmithing, and crafting agricultural tools. They are an indigenous occupational caste within Nepal’s Hindu society, often associated with craftsmanship and technical knowledge. Bishwokarmas primarily speak Nepali and reside across hilly and Terai regions. Their culture emphasizes skill, discipline, and service to the community. They observe Hindu rituals and festivals with devotion. Historically, they were vital for producing tools, weapons, and household implements. Today, Bishwokarmas continue to combine traditional skills with modern occupations, contributing to Nepal’s economy and cultural heritage while preserving their artisanal identity.</p>
+  </a>
+</section>
+
+<section>
+  <a href="templates/musalman.html" style="text-decoration: none;">
+  <button>Musalman</button>
+  <p>The Musalman community in Nepal consists of followers of Islam, forming a minority religious and ethnic group. They live mainly in Terai regions and speak languages such as Urdu, Nepali, and Maithili. Musalmans maintain distinct cultural and religious practices, including Islamic festivals like Eid and Ramadan, along with traditional attire and dietary customs. They emphasize family values, education, and social cohesion. Historically, they contributed to trade, business, and local administration. Today, Musalmans continue to play a vital role in Nepalese society, preserving their religious and cultural identity while participating in the country’s economic, educational, and social development.</p>
+  </a>
+</section>
+
+<section>
+  <a href="templates/newar.html" style="text-decoration: none;">
+  <button>Newa (Newar)</button>
+  <p>The Newar community, also called Newa, is an indigenous ethnic group primarily residing in the Kathmandu Valley. Renowned for their rich cultural heritage, they are known for unique festivals, traditional arts, architecture, and cuisine. Newars follow Hinduism and Buddhism, celebrating festivals like Indra Jatra and Bisket Jatra with vibrant rituals. They speak Nepal Bhasa along with Nepali. Historically, Newars were traders, artisans, and administrators, contributing significantly to Nepal’s economy and culture. Today, they continue to preserve their language, art, and traditions while engaging in modern professions, tourism, and business, maintaining their cultural identity across generations.</p>
+  </a>
+</section>
+
+<section>
+  <a href="templates/yadav.html" style="text-decoration: none;">
+  <button>Yadav</button>
+  <p>The Yadav community is traditionally associated with cattle herding, agriculture, and dairy farming in Nepal, particularly in Terai regions. They follow Hinduism and celebrate festivals like Holi, Dashain, and Chhath with devotion. Yadavs speak Maithili, Bhojpuri, and Nepali depending on the region. Their society emphasizes family values, community cooperation, and respect for traditions. Historically, Yadavs contributed to local agriculture and trade, playing key roles in rural economies. Today, they continue to engage in farming, business, and education while preserving traditional customs, religious practices, and social cohesion, contributing to the cultural and economic diversity of Nepal.</p>
+  </a>
+</section>
+
+<section>
+  <a href="templates/rai.html" style="text-decoration: none;">
+  <button>Rai</button>
+  <p>The Rai community is an indigenous ethnic group primarily residing in eastern Nepal’s hilly regions. They have a rich culture with traditional dances, music, and festivals, and many speak the Rai languages along with Nepali. Historically, the Rais were known for their bravery and service in the military. Agriculture is a major occupation, along with animal husbandry. Rai society emphasizes community life, family bonds, and respect for elders. They celebrate festivals such as Sakela, which reflects their spiritual beliefs and cultural values. Today, Rais contribute to Nepal’s socio-cultural diversity while maintaining their heritage and practicing traditional customs alongside modern professions.</p>
+  </a>
+</section>
+</section>
+
+<section>
+   <a href="templates/khatwe.html" style="text-decoration: none;">
+  <button>Khatwe</button>
+  <p>The Khatwe community is traditionally associated with basket-making, bamboo craft, and agricultural support in Nepal’s Terai and hilly regions. They speak Nepali and regional languages such as Maithili or Bhojpuri and follow Hinduism. Khatwe society values family bonds, community collaboration, and occupational skill. Historically, Khatwes contributed to rural livelihoods through basket-making and supporting agricultural activities. Today, many are engaged in farming, business, and education while preserving traditional crafts and cultural identity. Their community reflects resilience, practical skill, and social cohesion, combining ancestral occupations with opportunities in modern Nepalese society.</p>
+  </a>
+</section>
+
+<section>
+  <a href="templates/gharti.html" style="text-decoration: none;">
+  <button>Gharti/Bhujel</button>
+  <p>Gharti or Bhujel is an indigenous ethnic group primarily residing in Nepal’s mid-hill regions. Traditionally, they are farmers, shepherds, and soldiers. They speak Nepali and Gharti/Bhujel dialects and follow Hinduism along with some indigenous beliefs. Their society emphasizes community, family, and respect for elders. Historically, Ghartis contributed to agriculture, military service, and local administration. Today, they continue farming, participate in government and business, and preserve cultural traditions, festivals, and social practices. The community balances modern life with traditional values, ensuring their heritage, customs, and identity are maintained across generations.</p>
+  </a>
+</section>
+
+<section>
+  <a href="templates/majhi.html" style="text-decoration: none;">
+  <button>Majhi</button>
+  <p>The Majhi community in Nepal is traditionally associated with fishing, boatmanship, and river-based livelihoods, primarily residing along rivers in Terai and hilly regions. They speak Nepali and regional languages and follow Hinduism, incorporating animistic beliefs and rituals related to water. Majhi society emphasizes family cohesion, occupational skill, and community cooperation. Historically, they played an essential role in fishing, transportation, and local trade. Today, many Majhis are engaged in education, agriculture, and business while preserving traditional practices, river-based skills, and cultural identity. Their culture reflects resilience, adaptation, and a strong connection to natural water resources.</p>
+  </a>
+</section>
+
+<section>
+  <a href="templates/nuniya.html" style="text-decoration: none;">
+  <button>Nuniya</button>
+  <p>The Nuniya community in Nepal is traditionally associated with oil extraction, especially mustard and sesame oil production. They reside primarily in Terai and some hilly regions, speaking Nepali and regional languages. Nuniya society emphasizes family bonds, community cooperation, and occupational expertise. They follow Hinduism and observe local festivals and rituals. Historically, Nuniya played an essential role in producing household oil and supporting rural economies. Today, many Nuniya are involved in agriculture, business, and education while maintaining traditional skills, cultural practices, and social cohesion, balancing heritage with opportunities in modern Nepalese society.</p>
+  </a>
+</section>
+
+<section>
+  <a href="templates/sundi.html" style="text-decoration: none;">
+  <button>Sundi</button>
+  <p>The Sundi community is traditionally an indigenous ethnic group residing in Nepal’s Terai and hilly regions, primarily engaged in agriculture and local craftsmanship. They speak Nepali and regional languages and follow Hinduism, observing local festivals and rituals with devotion. Sundi society emphasizes family values, community support, and respect for elders. Historically, they contributed to farming, trade, and craftsmanship in rural areas. Today, Sundis continue agricultural work while also participating in education, business, and modern professions. They strive to preserve their cultural identity, social cohesion, and traditional practices while adapting to contemporary economic and social opportunities.</p>
+  </a>
+</section>
+
+<section>
+  <a href="templates/gurung.html"style="text-decoration: none;">
+  <button>Gurung</button>
+  <p>The Gurung community in Nepal is traditionally associated with agriculture, forestry, and traditional crafts. They reside primarily in the mountainous regions of western Nepal, speaking Gurung and other regional languages. Gurung society emphasizes family bonds, community cooperation, and respect for elders. They follow Hinduism and observe local festivals and rituals. Historically, Gurungs played a significant role in managing forest resources and maintaining ecological balance. Today, many Gurungs are involved in agriculture, tourism, and education while preserving their cultural identity and traditional practices.</p>
+  </a>
+</section>
+
+<section>
+<a href="templates/pariyar.html" style="text-decoration: none;">
+  <button>Pariyar</button>
+  <p>The Pariyar community in Nepal is traditionally associated with music, particularly playing traditional instruments during festivals and ceremonies. They are an indigenous occupational caste within Nepal’s Hindu society, often linked to cultural and musical contributions. Pariyars primarily speak Nepali and reside across hilly and Terai regions. Their culture emphasizes artistic skill, community service, and participation in social events. They observe Hindu rituals and festivals with devotion. Historically, Pariyars played a crucial role in providing musical entertainment for various occasions. Today, many Pariyars continue to preserve their musical heritage while also engaging in modern professions, contributing to Nepal’s cultural diversity and artistic expression.</p>
+  </a>
+</section>
+</section>
+
+<section>
+  <a href="templates/mizar.html" style="text-decoration: none;">
+  <button>Mizar</button>
+  <p>The Mizar community in Nepal is traditionally associated with leatherwork, particularly crafting shoes and other leather goods. They are an indigenous occupational caste within Nepal’s Hindu society, often linked to craftsmanship and technical skill. Mizars primarily speak Nepali and reside across hilly and Terai regions. Their culture emphasizes artisanal skill, community service, and participation in social events. They observe Hindu rituals and festivals with devotion. Historically, Mizars played a crucial role in providing essential leather products for daily use. Today, many Mizars continue to preserve their craftsmanship while also engaging in modern professions, contributing to Nepal’s economy and cultural heritage.</p>
+  </a>
+</section>
+
+<section>
+  <a href="templates/teli.html" style="text-decoration: none;">
+  <button>Teli</button>
+  <p>The Teli community in Nepal is traditionally associated with oil pressing, particularly mustard and sesame oil production. They reside primarily in Terai and some hilly regions, speaking Nepali and regional languages. Teli society emphasizes family bonds, community cooperation, and occupational expertise. They follow Hinduism and observe local festivals and rituals. Historically, Telis played an essential role in producing household oil and supporting rural economies. Today, many Telis are involved in agriculture, business, and education while maintaining traditional skills, cultural practices, and social cohesion, balancing heritage with opportunities in modern Nepalese society.</p>
+  </a>
+</section>
+
+<section>
+  <a href="templates/tharu.html" style="text-decoration: none;">
+  <button>Tharu</button>
+  <p>The Tharu community is among the oldest continuously inhabiting indigenous communities of the South Asian subcontinent — a people whose presence in the Terai lowlands of southern Nepal and northern India predates the arrival of virtually every other population group in the region by centuries, and whose remarkable physiological and cultural adaptations to the malarial jungles of the Terai made them the sole masters of a landscape that proved fatal to outsiders for most of recorded history. The Terai — Nepal's narrow strip of subtropical lowland running east to west along the Indian border, covered by dense sal forest, crossed by swift-flowing rivers descending from the Himalayas, rich in wildlife, and for most of history defined by a virulent strain of malaria that killed non-adapted peoples within weeks of arrival — was the Tharu homeland, and the Tharu people shaped their entire civilization around its rhythms, its dangers, its bounties, and its extraordinary ecological complexity.
+</p>
+  </a>
+</section>
+
+<script>
+function searchGroups() {
+    let input = document.getElementById("searchInput");
+    let filter = input.value.toLowerCase();
+
+    let sections = document.querySelectorAll("section");
+
+    sections.forEach(section => {
+        let button = section.querySelector("button");
+
+        if (!button) return;
+
+        let text = button.textContent.toLowerCase();
+
+        if (text.includes(filter)) {
+            section.style.display = "block";
+        } else {
+            section.style.display = "none";
+        }
+    });
+}
+</script>
+</body>
+
+
+</html>
