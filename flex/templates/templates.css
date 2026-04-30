@@ -383,15 +383,32 @@
   .back-top:hover { opacity: 1; }
 
   
-  @media (max-width: 640px) {
-    .section { padding: 50px 20px; }
-    .hero { padding: 60px 20px 50px; }
-    .hero-stats { gap: 20px; }
-    .stat-box { padding: 12px 18px; }
-    .section-header { flex-direction: column; gap: 8px; }
-    .section-number { font-size: 2.5rem; }
-    .toc { padding: 40px 20px; }
+ @media (max-width: 768px) {
+  body {
+    padding: 10px;
   }
+  .hero-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .toc-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hero-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .section {
+    padding: 10px;
+  }
+}
 
   
   ::-webkit-scrollbar { width: 8px; }
